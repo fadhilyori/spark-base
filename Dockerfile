@@ -2,7 +2,7 @@ FROM opensuse/leap:15
 
 LABEL author="Fadhil Yori Hibatullah"
 
-ENV SPARK_VERSION=2.4.4
+ENV SPARK_VERSION=2.3.4
 ENV HADOOP_VERSION=2.7
 
 RUN zypper in -y net-tools-deprecated bash java-1_8_0-openjdk tar gzip wget && \
